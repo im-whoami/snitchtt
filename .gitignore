@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+**/build/
+*.iml
+
+# Android
+local.properties
+/.idea/
+.idea/
+*.iml
+/captures
+.externalNativeBuild/
+.cxx/
+**/.cxx/
+
+# Native build artifacts
+*.o
+*.d
+*.so
+!snitchtt-*.aar
+
+# MacOS
+.DS_Store
+
+# Secrets / keys
+*.jks
+*.keystore
+google-services.json

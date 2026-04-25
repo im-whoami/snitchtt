@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <!--
+            SnitchProvider: auto-loads libsnitchtt.so before Application.onCreate().
+            initOrder=MAX_INT ensures it runs before any other ContentProvider.
+            The constructor inside the .so fires immediately on load, capturing
+            a pristine process snapshot before any Frida/hook can interfere.
+        -->
+        <provider
+            android:name="ai.snitchtt.SnitchProvider"
+            android:authorities="${applicationId}.snitchtt_init"
+            android:exported="false"
+            android:initOrder="2147483647" />
+    </application>
+</manifest>
