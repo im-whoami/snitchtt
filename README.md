@@ -231,4 +231,4 @@ SnitchConfig(
 
 ## License
 
-Apache 2.0 — free for everyone. See [LICENSE](LICENSE).
+MIT — free to use, modify, and distribute. See [LICENSE](LICENSE).
