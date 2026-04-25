@@ -231,4 +231,4 @@ SnitchConfig(
 
 ## License
 
-MIT — free to use, modify, and distribute. See [LICENSE](LICENSE).
+MIT + Commons Clause — free to use, modify, fork, and distribute. You **cannot sell** the library itself or a service built primarily around it. Integrating it into your own app (including a paid app) is fine. See [LICENSE](LICENSE).
